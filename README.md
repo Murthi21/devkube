@@ -1,1 +1,2 @@
-# devkube
+# hellowhale
+Simple Docker Demo App
