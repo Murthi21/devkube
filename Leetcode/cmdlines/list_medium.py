@@ -41,7 +41,6 @@ print(longerthan5(str))
 
 
 # Write a function that takes a list of numbers and returns the largest number in the list.
-# Write a function that takes a list of numbers and returns the average of all the numbers.
 
 def largest_number(numbers):
     large = numbers[0]
@@ -53,4 +52,11 @@ def largest_number(numbers):
  
 numbers = [3, 41, 12, 9, 74, 15]
 print(largest_number(numbers))
-    
+
+# Write a function that takes a list of numbers and returns the average of all the numbers.
+def avg_num(numbers):
+    sum_numbers = sum(numbers)
+    average = sum_numbers / len(numbers)
+    return average
+
+print(avg_num(numbers))    
