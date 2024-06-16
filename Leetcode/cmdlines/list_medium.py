@@ -42,4 +42,15 @@ print(longerthan5(str))
 
 # Write a function that takes a list of numbers and returns the largest number in the list.
 # Write a function that takes a list of numbers and returns the average of all the numbers.
-git staty
+
+def largest_number(numbers):
+    large = numbers[0]
+    for x in numbers:
+        if x > large:
+            large = x
+    return large        
+
+ 
+numbers = [3, 41, 12, 9, 74, 15]
+print(largest_number(numbers))
+    
